@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import StartContent from './Components/Start-Content/Start-Content';
+import Kebaby from './Components/Kebaby/Kebaby';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='baner'>
+        <a href="#">Home</a>
+        <a href="#">Kebaby</a>
+        <a href="#">Newsy</a>
+        <img id='logo-baner' src='logo.png'></img>
+      </div>
+        <Kebaby></Kebaby>
+      <div className='footer'>
+        <p>Stronę stworzyli: Michał Zieleniecki, Mateusz Wiszowaty, Konrad Palikot</p>
+      </div>
     </div>
   );
 }
