@@ -6,14 +6,14 @@ function App() {
   return (
     <div className="App">
       <div className='baner'>
-        <a href="#">Home</a>
-        <a href="#">Kebaby</a>
-        <a href="#">Newsy</a>
-        <img id='logo-baner' src='logo.png'></img>
+          <a href="#">Home</a>
+          <a href="#">News</a>
+          <a href="#">Kebaby</a>
+          <img id='logo-baner' src='logo.png'></img>
       </div>
         <Kebaby></Kebaby>
       <div className='footer'>
-        <p>Stronę stworzyli: Michał Zieleniecki, Mateusz Wiszowaty, Konrad Palikot</p>
+        <p> &copy; {new Date().getFullYear()} Stronę stworzyli: Michał Zieleniecki, Mateusz Wiszowaty, Konrad Palikot</p>
       </div>
     </div>
   );
